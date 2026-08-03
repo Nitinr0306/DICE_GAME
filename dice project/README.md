@@ -110,19 +110,3 @@ Player data is stored in `players.dat` in the project root.
 - Add concurrent tournament simulation with `ExecutorService`
 - Unit tests with JUnit (kept out for pure core Java focus in this iteration)
 
-## Viva / Interview Explanation
-1. The project simulates a dice tournament with persistent players and statistics.
-2. Chosen because it’s simple but showcases many Java concepts clearly.
-3. Layered architecture with `app`, `service`, `repository`, and `model` packages.
-4. Main classes: `Main`, `PlayerService`, `GameEngine`, `FilePlayerRepository`.
-5. Flow: CLI -> Service -> Engine -> Repository (persist) -> Reports.
-6. OOP: Encapsulated models, services via abstractions, composition over inheritance.
-7. Collections: `HashMap` for indices, `ArrayList` for ordered data.
-8. Exception handling: Validations throw custom exceptions with user-friendly messages.
-9. File handling: Serialize/deserialize `List<Player>` with corruption handling.
-10. Streams: Sorting, aggregation, and statistics pipelines.
-11. Design patterns: Builder, Repository, light Strategy.
-12. SOLID: Clear separation and dependency on abstractions.
-13. Algorithms: Sorting with comparators, aggregation via grouping and averaging.
-14. Challenges: Handling ties, safe persistence, robust input validation.
-15. Future: Concurrency for simulations, CSV export, more reports.
