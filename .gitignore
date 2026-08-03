@@ -1,0 +1,19 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# IDE specific files
+.idea/
+*.iml
+out/
+
+# Build directories
+target/
+build/
+
+# Local runtime data
+players.dat
